@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.box1 {
+  flex: 1;  
+}
+
+header {
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(223, 47%, 23%);
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.imagep {
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%); 
+    font-size: 16px;
+    text-align: center;
+    width: 340px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 23px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.box2 {
+    flex: 350px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.flex-box3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 70px;
+    background-color: hsl(225, 100%, 98%);
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.annual {
+    flex: 1;
+    margin-left: -20px;
+    vertical-align: center;
+    padding-left: 20px;
+    padding-bottom: 0px;
+    color: hsl(223, 47%, 23%);
+    font-size: 15px;
+    font-weight: 600;
+    z-index: 2;
+} 
+
+.time {
+    flex: 1;
+    font-size: 15px;
+    left: 500px;
+    top: 365px;
+    z-index: 1;
+    color: hsl(224, 23%, 55%);
+    font-weight: 600;
+}
+
+.Change {
+    color: hsl(245, 75%, 52%);
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 0.15s, text-decoration 0.15s;
+}
+
+:active.Change {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.imageicon {
+    margin: -10px;
+}
+
+button {
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    font-weight: 600;
+    border: none;
+    padding: 10px 75px 10px 75px;
+    margin-left: 17px;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    box-shadow: 1px 10px 13px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+:active button {
+    background-color: hsl(224, 23%, 55%);
+}
+
+.cancel {
+    text-align: center;
+    color:  hsl(224, 23%, 55%);
+    font-weight: 600;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: color 0.15s;
+}
+
+:active.cancel {
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution { 
+    margin-top: 5px;
+    font-size: 11px; text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+    font-size: 11px;
+}
